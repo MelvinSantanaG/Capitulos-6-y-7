@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
 
-namespace Capitulos_6_y_7.Capitulo_6
+namespace Capitulo_6_y_7.Capitulo_6
 {
     public partial class Cap6Tarea4 : Form
     {

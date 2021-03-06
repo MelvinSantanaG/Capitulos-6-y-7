@@ -1,7 +1,8 @@
 ﻿
-namespace Capitulos_6_y_7
+namespace Capitulo_6_y_7
 {
-    partial class Form1
+    partial class MainForm
+
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,13 +30,14 @@ namespace Capitulos_6_y_7
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.CapituloButton6 = new System.Windows.Forms.Button();
             this.CapituloButton7 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // CapituloButton6
             // 
-            this.CapituloButton6.Location = new System.Drawing.Point(88, 84);
+            this.CapituloButton6.Location = new System.Drawing.Point(12, 33);
             this.CapituloButton6.Name = "CapituloButton6";
             this.CapituloButton6.Size = new System.Drawing.Size(75, 23);
             this.CapituloButton6.TabIndex = 0;
@@ -45,7 +47,7 @@ namespace Capitulos_6_y_7
             // 
             // CapituloButton7
             // 
-            this.CapituloButton7.Location = new System.Drawing.Point(264, 84);
+            this.CapituloButton7.Location = new System.Drawing.Point(112, 33);
             this.CapituloButton7.Name = "CapituloButton7";
             this.CapituloButton7.Size = new System.Drawing.Size(75, 23);
             this.CapituloButton7.TabIndex = 1;
@@ -53,15 +55,17 @@ namespace Capitulos_6_y_7
             this.CapituloButton7.UseVisualStyleBackColor = true;
             this.CapituloButton7.Click += new System.EventHandler(this.CapituloButton7_Click);
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(466, 211);
+            this.ClientSize = new System.Drawing.Size(199, 86);
             this.Controls.Add(this.CapituloButton7);
             this.Controls.Add(this.CapituloButton6);
-            this.Name = "Form1";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
             this.ResumeLayout(false);
 

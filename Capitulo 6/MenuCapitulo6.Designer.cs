@@ -1,5 +1,5 @@
 ﻿
-namespace Capitulos_6_y_7
+namespace Capitulo_6_y_7
 {
     partial class MenuCapitulo6
     {
@@ -29,6 +29,7 @@ namespace Capitulos_6_y_7
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuCapitulo6));
             this.Capitulo6Button1 = new System.Windows.Forms.Button();
             this.Capitulo6Button2 = new System.Windows.Forms.Button();
             this.Capitulo6Button5 = new System.Windows.Forms.Button();
@@ -38,7 +39,7 @@ namespace Capitulos_6_y_7
             // 
             // Capitulo6Button1
             // 
-            this.Capitulo6Button1.Location = new System.Drawing.Point(84, 31);
+            this.Capitulo6Button1.Location = new System.Drawing.Point(91, 12);
             this.Capitulo6Button1.Name = "Capitulo6Button1";
             this.Capitulo6Button1.Size = new System.Drawing.Size(75, 28);
             this.Capitulo6Button1.TabIndex = 0;
@@ -48,7 +49,7 @@ namespace Capitulos_6_y_7
             // 
             // Capitulo6Button2
             // 
-            this.Capitulo6Button2.Location = new System.Drawing.Point(84, 93);
+            this.Capitulo6Button2.Location = new System.Drawing.Point(91, 48);
             this.Capitulo6Button2.Name = "Capitulo6Button2";
             this.Capitulo6Button2.Size = new System.Drawing.Size(75, 23);
             this.Capitulo6Button2.TabIndex = 1;
@@ -58,7 +59,7 @@ namespace Capitulos_6_y_7
             // 
             // Capitulo6Button5
             // 
-            this.Capitulo6Button5.Location = new System.Drawing.Point(84, 271);
+            this.Capitulo6Button5.Location = new System.Drawing.Point(91, 156);
             this.Capitulo6Button5.Name = "Capitulo6Button5";
             this.Capitulo6Button5.Size = new System.Drawing.Size(75, 23);
             this.Capitulo6Button5.TabIndex = 2;
@@ -68,7 +69,7 @@ namespace Capitulos_6_y_7
             // 
             // Capitulo6Button3
             // 
-            this.Capitulo6Button3.Location = new System.Drawing.Point(84, 159);
+            this.Capitulo6Button3.Location = new System.Drawing.Point(91, 84);
             this.Capitulo6Button3.Name = "Capitulo6Button3";
             this.Capitulo6Button3.Size = new System.Drawing.Size(75, 23);
             this.Capitulo6Button3.TabIndex = 3;
@@ -78,7 +79,7 @@ namespace Capitulos_6_y_7
             // 
             // Capitulo6Button4
             // 
-            this.Capitulo6Button4.Location = new System.Drawing.Point(84, 215);
+            this.Capitulo6Button4.Location = new System.Drawing.Point(91, 120);
             this.Capitulo6Button4.Name = "Capitulo6Button4";
             this.Capitulo6Button4.Size = new System.Drawing.Size(75, 23);
             this.Capitulo6Button4.TabIndex = 4;
@@ -91,14 +92,16 @@ namespace Capitulos_6_y_7
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(260, 306);
+            this.ClientSize = new System.Drawing.Size(260, 186);
             this.Controls.Add(this.Capitulo6Button4);
             this.Controls.Add(this.Capitulo6Button3);
             this.Controls.Add(this.Capitulo6Button5);
             this.Controls.Add(this.Capitulo6Button2);
             this.Controls.Add(this.Capitulo6Button1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MenuCapitulo6";
-            this.Text = "Menu del Capitulo 6";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Menu Capitulo 6";
             this.ResumeLayout(false);
 
         }

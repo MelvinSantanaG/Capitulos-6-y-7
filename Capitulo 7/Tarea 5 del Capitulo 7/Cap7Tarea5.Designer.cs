@@ -1,5 +1,5 @@
 ﻿
-namespace Capitulos_6_y_7.Capitulo_7
+namespace Capitulo_6_y_7.Capitulo_7
 {
     partial class Cap7Tarea5
     {
@@ -29,6 +29,7 @@ namespace Capitulos_6_y_7.Capitulo_7
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cap7Tarea5));
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.Resultado1 = new System.Windows.Forms.Label();
@@ -57,11 +58,11 @@ namespace Capitulos_6_y_7.Capitulo_7
             this.label1.TabIndex = 1;
             this.label1.Text = "Agenda Telefonica";
             // 
-            // Resultado
+            // Resultado1
             // 
             this.Resultado1.AutoSize = true;
             this.Resultado1.Location = new System.Drawing.Point(155, 109);
-            this.Resultado1.Name = "Resultado";
+            this.Resultado1.Name = "Resultado1";
             this.Resultado1.Size = new System.Drawing.Size(0, 15);
             this.Resultado1.TabIndex = 2;
             // 
@@ -101,8 +102,10 @@ namespace Capitulos_6_y_7.Capitulo_7
             this.Controls.Add(this.Resultado1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Cap7Tarea5";
-            this.Text = "Cap7Tarea5";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Tarea 5";
             this.ResumeLayout(false);
             this.PerformLayout();
 

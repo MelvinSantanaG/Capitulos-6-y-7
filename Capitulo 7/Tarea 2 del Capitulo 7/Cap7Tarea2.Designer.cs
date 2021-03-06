@@ -1,5 +1,5 @@
 ﻿
-namespace Capitulos_6_y_7.Capitulo_7
+namespace Capitulo_6_y_7.Capitulo_7
 {
     partial class Cap7Tarea2
     {
@@ -29,6 +29,7 @@ namespace Capitulos_6_y_7.Capitulo_7
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cap7Tarea2));
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -128,8 +129,10 @@ namespace Capitulos_6_y_7.Capitulo_7
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Cap7Tarea2";
-            this.Text = "Cap7Tarea2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Tarea 2";
             this.ResumeLayout(false);
             this.PerformLayout();
 
