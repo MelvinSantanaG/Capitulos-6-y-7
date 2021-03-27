@@ -37,7 +37,7 @@ namespace Capitulo_6_y_7
             // 
             // CapituloButton6
             // 
-            this.CapituloButton6.Location = new System.Drawing.Point(12, 33);
+            this.CapituloButton6.Location = new System.Drawing.Point(12, 10);
             this.CapituloButton6.Name = "CapituloButton6";
             this.CapituloButton6.Size = new System.Drawing.Size(75, 23);
             this.CapituloButton6.TabIndex = 0;
@@ -47,7 +47,7 @@ namespace Capitulo_6_y_7
             // 
             // CapituloButton7
             // 
-            this.CapituloButton7.Location = new System.Drawing.Point(112, 33);
+            this.CapituloButton7.Location = new System.Drawing.Point(112, 10);
             this.CapituloButton7.Name = "CapituloButton7";
             this.CapituloButton7.Size = new System.Drawing.Size(75, 23);
             this.CapituloButton7.TabIndex = 1;
@@ -60,9 +60,10 @@ namespace Capitulo_6_y_7
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(199, 86);
+            this.ClientSize = new System.Drawing.Size(199, 45);
             this.Controls.Add(this.CapituloButton7);
             this.Controls.Add(this.CapituloButton6);
+            this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
