@@ -5,7 +5,7 @@
     <TargetFramework>net5.0-windows</TargetFramework>
     <RootNamespace>Capitulo_6_y_7</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
-    <ApplicationIcon>tarea.ico</ApplicationIcon>
+    <ApplicationIcon></ApplicationIcon>
   </PropertyGroup>
 
 </Project>
